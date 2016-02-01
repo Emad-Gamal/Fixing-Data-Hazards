@@ -1,0 +1,12 @@
+lw  t3  20  t0
+add  t1  zero  1
+sw  t0  t3  24
+add  t5  t3  t1
+addi  t3  t3  2
+sub  t2  t5  t1
+add  t4  t1  t0
+lw  t5  34  t3
+NOP
+add  t6  t6  t5
+NOP
+add  t7  t6  t5
